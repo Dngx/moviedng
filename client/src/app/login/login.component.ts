@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit{
   constructor(private router:Router){}
 
   ngOnInit(): void {
-    if(localStorage.getItem('isLogin') === null){
+    if(localStorage.getItem('isLogin') !== null){
      this.router.navigateByUrl('/movies')
     }
    }
