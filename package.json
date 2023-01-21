@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dngx/moviedng/issues"
   },
-  "homepage": "https://github.com/Dngx/moviedng#readme"
+  "homepage": "https://github.com/Dngx/moviedng#readme",
+  "dependencies": {
+    "ngx-pagination": "^6.0.3"
+  }
 }

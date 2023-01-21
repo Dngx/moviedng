@@ -6,6 +6,7 @@ import { MoviesService } from 'services/movies.service';
   selector: 'app-movies',
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.css']
+  //changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MoviesComponent implements OnInit {
 
@@ -23,6 +24,6 @@ export class MoviesComponent implements OnInit {
    })
   }
 
-
+  //page: number = 1;
 
 }
